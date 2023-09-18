@@ -1,0 +1,80 @@
+#eco-senderos__inicio {
+    position: relative;
+    background-image: url("../img/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    height: 100vh;
+}
+
+.eco-senderos__content--hero {
+    height: 100vh;
+}
+
+.eco-senderos__content--text-wrapper {
+    position: relative;
+}
+
+.eco-senderos__content--text {
+    color: var(--white-color);
+    position: absolute;
+    transform: translate(50%, 50%);
+    animation: show-text 1s ease-in-out 0.05s;
+}
+
+.eco-senderos__content--text-heading {
+    font-size: 39px;
+    text-transform: uppercase;
+}
+
+.heading {
+    display: block;
+}
+
+.heading--light {
+    font-weight: 300;
+}
+
+.heading--dark {
+    font-weight: 700;
+}
+
+.eco-senderos__content--text--copy {
+    width: 100%;
+    max-width: 372px;
+    margin-top: 24px;
+    line-height: 1.5;
+}
+
+.eco-senderos__content--mountains {
+    position: absolute;
+    bottom: 0px;
+    transform: translate(100%, 0%);
+    animation: show-mountains 1s ease-in-out 0.05s;
+}
+
+.eco-senderos__content--button {
+    margin-top: 24px;
+}
+
+@media screen and (max-width: 767px) {
+    .eco-senderos__content--text {
+        transform: translate(10%, 50%);
+    }
+    .eco-senderos__content--mountains {
+        display: none;
+    }
+    .eco-senderos__content--text--copy {
+        max-width: 300px;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .eco-senderos__content--mountains {
+        transform: translate(0, 0%);
+    }
+    .eco-senderos__content--text {
+        transform: translate(10%, 50%);
+    }
+}

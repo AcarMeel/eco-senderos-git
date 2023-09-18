@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.66 18.72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #dbdb28;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="card01">
+    <polygon class="cls-1" points="15.88 18.72 9.81 15.51 3.72 18.68 4.9 11.92 0 7.12 6.8 6.15 9.85 0 12.87 6.16 19.66 7.17 14.73 11.95 15.88 18.72"/>
+  </g>
+</svg>
