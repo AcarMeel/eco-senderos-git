@@ -1,6 +1,8 @@
 .navbar-bg {
     background-color: var(--bg-color);
     background-image: url("../img/stars.svg");
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .navbar-toggler {
